@@ -8,7 +8,7 @@ class Shoggoth {
         let shoggothElement = document.createElement('div')
         shoggothElement.style.backgroundColor = 'grey'
         document.appendElement(shoggothElement)
-
+        
         Shoggoth.instance = this
     }
 }

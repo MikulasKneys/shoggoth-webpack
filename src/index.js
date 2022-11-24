@@ -4,6 +4,8 @@ import behold from './assets/shoggoth.jpg'
 import axios from 'axios'
 import eyeSpawner from './eyeSpawner'
 
+document.getElementById('shoggoth').requestFullscreen({navigationUI: 'hide'})
+
 let config = {
     headers: {
         Accept: 'application/json'
